@@ -1,0 +1,35 @@
+body {
+  background-color: green;
+  max-width: 100vh;
+  overflow-y: hidden;
+}
+
+.textClass {
+  font-size: 120px;
+  font-family: TheBlackBloc, "!The Black Bloc";
+  color: darkorange;
+}
+
+main {
+  display: block;
+}
+
+button {
+  position: sticky;
+  text-align: center;
+}
+
+text {
+  display: flex;
+}
+
+.a {
+  fill: #a39595;
+}
+.b {
+  fill: #fff;
+}
+.c {
+  font-size: 12px;
+  font-family: MyriadPro-Regular, Myriad Pro;
+}

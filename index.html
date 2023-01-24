@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australian clock</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  </head>
+  <button id="pushBtn">Tryck på knappen för att se tiden i Australien</button>
+  <body>
+    <main>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 172">
+        <circle cx="86" cy="86" r="86" />
+        <circle class="a" cx="86" cy="86" r="78.5" />
+        <path class="b" d="M86.16,85.92a1.5,1.5,0,0,0,0-3,1.5,1.5,0,0,0,0,3Z" />
+        <text class="numberTwelve" transform="translate(79.32 20.31)">12</text>
+        <text class="numberThree" transform="translate(156 89.57)">3</text>
+        <text class="numberSix" transform="translate(81.95 160.36)">6</text>
+        <text class="numberNine" transform="translate(10.53 87.15)">9</text>
+        <path
+          class="timvisare"
+          d="M85.18,57.05V84.42a1.5,1.5,0,0,0,3,0V57.05a1.5,1.5,0,0,0-3,0Z"
+        />
+        <path
+          class="minutvisare"
+          d="M31.5,86c13.76.81,27.53,1.2,41.32.72,4.56-.16,9.12-.41,13.68-.72,1.92-.13,1.93-3.13,0-3a396.62,396.62,0,0,1-43.75.57c-3.75-.15-7.5-.35-11.25-.57-1.93-.11-1.92,2.89,0,3Z"
+        />
+      </svg>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
