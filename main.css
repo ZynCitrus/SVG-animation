@@ -4,12 +4,6 @@ body {
   overflow-y: hidden;
 }
 
-.textClass {
-  font-size: 120px;
-  font-family: TheBlackBloc, "!The Black Bloc";
-  color: darkorange;
-}
-
 main {
   display: block;
 }
@@ -31,5 +25,5 @@ text {
 }
 .c {
   font-size: 12px;
-  font-family: MyriadPro-Regular, Myriad Pro;
+  font-family: TheBlackBloc, "!The Black Bloc";
 }
